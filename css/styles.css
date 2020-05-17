@@ -3,9 +3,13 @@ h1 {
   text-align: center;
 }
 .form_container {
-            border: 1px solid darkgrey;
-            width: 300px;
-            text-align: center;
+  border: 1px solid darkgrey;
+  width: 300px;
+  margin-top: 10%;
+  margin-left: 35%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
 }
 .answer {
   text-align: center;
