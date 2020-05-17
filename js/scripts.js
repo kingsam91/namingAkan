@@ -11,4 +11,10 @@ function calculate() {
     var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"];
-        
+var output = document.getElementById('results_container');
+if (gender === male); {
+  output.innerHTML = 'You were born on ' + dayOfTheWeek[parseInt(d)] + 'and your Akan name is ' + male[parseInt(d)];
+} else  {
+  outpu.innerHTML = 'You were born on ' + dayOfTheWeek[parseInt(d)] + 'and your Akan name is ' + female[parseInt(d)];
+
+}
