@@ -2,3 +2,8 @@ h1 {
   color: blue;
   text-align: center;
 }
+.form_container {
+            border: 1px solid darkgrey;
+            width: 300px;
+            text-align: center;
+}
