@@ -2,7 +2,7 @@ h1 {
   color: blue;
   text-align: center;
 }
-.form_container {
+#form_container {
   border: 1px solid darkgrey;
   width: 300px;
   margin-top: 10%;
@@ -17,3 +17,11 @@ h1 {
 .img {
   background-image: image(src=images/ghana.jpg);
 }
+#results_container {
+      border: 1px solid darkgrey;
+      width: 300px;
+      margin-top: 10px;
+      margin-left: 35%;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
